@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Marvel.com The Official Site For Marvel Movies.</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet/portfolio.css">
+    </head>
+
+    <!--Body-->
+    <body class="Background">
+        
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">Marvel Movies</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <!--Breaks inserted to add space between navbar and the first heading-->
+        <br>
+        <br>
+
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Women">
+                <source src="images/video/w.mp4" type="video/mp4">
+                <!--Display message if video fails to run-->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">MARVEL MOVIES</h1>
+            <strong>
+                <p class="center">
+                    <q>MOVIES
+                        <br>Journey into the cosmic depths of the mighty Marvel Cinematic Universe!
+                        <br>MARVEL MOVIES
+                    </q>
+                    <br> Avengers: Endgame
+                    <br>
+                    <br> OVERVIEW
+                    <br>
+                    <br> The grave course of events set in motion by Thanos that wiped out half the universe and fractured the Avengers ranks compels the remaining Avengers to take one final stand in Marvel Studios' grand conclusion to twenty-two films, "Avengers: Endgame."
+                </p>
+            </strong>
+        </div>
+
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="images/thumbnail_7.jpg" alt="Replace with your own image and description">
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>OVERVIEW</h1>
+                <p>
+                    The grave course of events set in motion by Thanos that wiped out half
+                    <br>
+                    <br>the universe and fractured the Avengers ranks compels the remaining <a href="https://www.marvel.com/movies/avengers-endgame" target="_blank">Avengers: Endgame.</a>Avengers to take one final stand in Marvel Studios' grand conclusion to 
+                    <br>
+                    <br>twenty-two films, "Avengers: Endgame." <a href="#Contact">Contact</a> Avengers: Endgame.
+                </p>
+            </div>
+        </div>
+
+        <!--GitHub section-->
+        <div class="Row" id="GitHub">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>Avengers: Endgame.</h1>
+                <p>
+                    Full Cast & Credits.
+                    <br>
+                    <p class="center"><a href="https://www.marvel.com/movies/avengers-endgame/full-cast-and-credits" target="_blank">Marvel Studios' Avengers: Endgame Cast.</a></p>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <a href="https://www.marvel.com/movies/avengers-endgame/full-cast-and-credits" target="_blank"><img src="images/thumbnail_5.jpg" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="images/thumbnail_10.jpg" alt="Contact_Image">
+            </div>
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <!--This specifies where and how to send the form data; we are leaving it blank-->
+                <form action="" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer section-->
+        <footer>
+            <p>
+                <p class="center">&copy Marvel Movie Studios, <a href="https://www.marvel.com/movies" target="_blank">Marvel Movies</a></p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>
